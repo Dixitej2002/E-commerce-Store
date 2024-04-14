@@ -379,11 +379,36 @@ button.white{
    
     color: #ffbd27;
 }
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
 #newsletter input{
     height: 3.125rem;
-    padding: 0 1.25rem;border: ;
+    padding: 0 1.25rem;
+  
     font-size: 14px;
     width: 100%;
     border: 1px solid transparent;
     outline: none;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+}
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
