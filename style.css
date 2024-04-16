@@ -618,6 +618,14 @@ footer .copyright{
     footer .copyright{
         text-align: start;
     }
+    /* single product */
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+  
 }
 
 /* //shop page */
@@ -664,10 +672,7 @@ footer .copyright{
     display: flex;
     justify-content: space-between;
 }
-/* .small-img-group img{
-    height: 15vh;
-    width: 110px;
-} */
+
 .small-img-col{
     flex-basis:24%;
     cursor: pointer;
@@ -704,4 +709,15 @@ footer .copyright{
 }
 #prodetails .single-pro-details span{
     line-height: 25px;
+}
+
+@media screen and (max-width:477px) {
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right:0px;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+    
 }
