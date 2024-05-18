@@ -615,6 +615,10 @@ background-image: url("img/banner/b19.jpg");
     z-index: -9;
 }
 
+#page-header.about-header{
+    background-image:url("img/about/banner.png") ;
+}
+
 
 
 @media (max-width:799px){
@@ -779,7 +783,23 @@ background-image: url("img/banner/b19.jpg");
         display: flex;
         flex-direction: column;
     }
-
-   
+    /* blog page */
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+       
+    }
+    #blog .blog-img {
+       width: 100%;
+       margin-right: 0;
+       margin-bottom: 30px;
+    }
+    #blog .blog-details{
+        width: 100%;
+    }
   
 }
